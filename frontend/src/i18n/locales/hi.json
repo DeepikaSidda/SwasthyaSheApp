@@ -1,0 +1,286 @@
+{
+  "common": {
+    "navigation": {
+      "home": "होम",
+      "cycleTracker": "मासिक धर्म ट्रैकर",
+      "symptomTracker": "लक्षण ट्रैकर",
+      "communityForum": "सामुदायिक मंच",
+      "wellnessPlanner": "स्वास्थ्य योजनाकार",
+      "periodHealth": "मासिक धर्म स्वास्थ्य",
+      "naturalRemedies": "प्राकृतिक उपचार",
+      "bloodColorGuide": "रक्त रंग गाइड",
+      "menstrualHygiene": "मासिक धर्म स्वच्छता",
+      "mentalWellness": "मानसिक स्वास्थ्य",
+      "sexualHealth": "यौन स्वास्थ्य",
+      "skinHairCare": "त्वचा और बाल देखभाल",
+      "pregnancyCare": "गर्भावस्था देखभाल",
+      "dietPlan": "आहार योजना",
+      "search": "खोजें"
+    },
+    "buttons": {
+      "submit": "जमा करें",
+      "cancel": "रद्द करें",
+      "save": "सहेजें",
+      "delete": "हटाएं",
+      "edit": "संपादित करें",
+      "close": "बंद करें",
+      "back": "वापस",
+      "next": "अगला",
+      "previous": "पिछला",
+      "confirm": "पुष्टि करें",
+      "reset": "रीसेट",
+      "clear": "साफ़ करें",
+      "apply": "लागू करें",
+      "viewMore": "और देखें",
+      "viewLess": "कम देखें",
+      "loadMore": "और लोड करें",
+      "retry": "पुनः प्रयास करें"
+    },
+    "labels": {
+      "loading": "लोड हो रहा है...",
+      "error": "त्रुटि",
+      "success": "सफलता",
+      "warning": "चेतावनी",
+      "info": "जानकारी",
+      "required": "आवश्यक",
+      "optional": "वैकल्पिक",
+      "date": "तारीख",
+      "time": "समय",
+      "today": "आज",
+      "yesterday": "कल",
+      "tomorrow": "कल",
+      "selectDate": "तारीख चुनें",
+      "selectLanguage": "भाषा चुनें",
+      "noData": "कोई डेटा उपलब्ध नहीं",
+      "noResults": "कोई परिणाम नहीं मिला"
+    },
+    "errors": {
+      "generic": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+      "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+      "validationError": "कृपया अपना इनपुट जांचें और पुनः प्रयास करें।",
+      "notFound": "अनुरोधित संसाधन नहीं मिला।",
+      "unauthorized": "आप इस कार्य को करने के लिए अधिकृत नहीं हैं।",
+      "serverError": "सर्वर त्रुटि। कृपया बाद में पुनः प्रयास करें।"
+    }
+  },
+  "cycleTracker": {
+    "title": "मासिक धर्म ट्रैकर",
+    "subtitle": "अपने मासिक चक्र को ट्रैक करें और भविष्यवाणियां प्राप्त करें",
+    "calendar": {
+      "period": "मासिक धर्म",
+      "predictedPeriod": "अनुमानित मासिक धर्म",
+      "fertileWindow": "प्रजनन अवधि",
+      "ovulation": "अंडोत्सर्ग",
+      "pmsDays": "पीएमएस दिन",
+      "currentDay": "वर्तमान दिन",
+      "cycleDay": "चक्र दिवस"
+    },
+    "form": {
+      "logPeriod": "मासिक धर्म दर्ज करें",
+      "startDate": "प्रारंभ तिथि",
+      "endDate": "समाप्ति तिथि",
+      "flowIntensity": "प्रवाह तीव्रता",
+      "light": "हल्का",
+      "medium": "मध्यम",
+      "heavy": "भारी",
+      "notes": "नोट्स",
+      "addNotes": "नोट्स जोड़ें (वैकल्पिक)"
+    },
+    "predictions": {
+      "title": "भविष्यवाणियां",
+      "nextPeriod": "अगला मासिक धर्म",
+      "fertileWindow": "प्रजनन अवधि",
+      "ovulationDate": "अंडोत्सर्ग तिथि",
+      "pmsDays": "पीएमएस दिन",
+      "averageCycleLength": "औसत चक्र अवधि",
+      "averagePeriodLength": "औसत मासिक धर्म अवधि",
+      "days": "दिन",
+      "confidence": "विश्वसनीयता",
+      "low": "कम",
+      "medium": "मध्यम",
+      "high": "उच्च",
+      "insufficientData": "भविष्यवाणियां देखने के लिए कम से कम 3 चक्र दर्ज करें"
+    },
+    "messages": {
+      "periodLogged": "मासिक धर्म सफलतापूर्वक दर्ज किया गया",
+      "periodUpdated": "मासिक धर्म सफलतापूर्वक अपडेट किया गया",
+      "invalidDateRange": "समाप्ति तिथि प्रारंभ तिथि के बाद होनी चाहिए"
+    }
+  },
+  "forum": {
+    "title": "सामुदायिक मंच",
+    "subtitle": "अन्य महिलाओं से जुड़ें और अनुभव साझा करें",
+    "categories": {
+      "all": "सभी श्रेणियां",
+      "periodHealth": "मासिक धर्म स्वास्थ्य",
+      "mentalWellness": "मानसिक स्वास्थ्य",
+      "pregnancy": "गर्भावस्था",
+      "ayurveda": "आयुर्वेद",
+      "general": "सामान्य"
+    },
+    "form": {
+      "createThread": "थ्रेड बनाएं",
+      "threadTitle": "थ्रेड शीर्षक",
+      "threadContent": "सामग्री",
+      "selectCategory": "श्रेणी चुनें",
+      "addTags": "टैग जोड़ें",
+      "postThread": "थ्रेड पोस्ट करें",
+      "writeReply": "उत्तर लिखें...",
+      "postReply": "उत्तर पोस्ट करें"
+    },
+    "thread": {
+      "replies": "उत्तर",
+      "reply": "उत्तर",
+      "noReplies": "अभी तक कोई उत्तर नहीं। पहले उत्तर दें!",
+      "postedBy": "द्वारा पोस्ट किया गया",
+      "lastActivity": "अंतिम गतिविधि",
+      "viewThread": "थ्रेड देखें"
+    },
+    "messages": {
+      "threadCreated": "थ्रेड सफलतापूर्वक बनाया गया",
+      "replyPosted": "उत्तर सफलतापूर्वक पोस्ट किया गया",
+      "emptyTitle": "कृपया थ्रेड शीर्षक दर्ज करें",
+      "emptyContent": "कृपया थ्रेड सामग्री दर्ज करें",
+      "noThreads": "कोई थ्रेड नहीं मिला। चर्चा शुरू करें!"
+    }
+  },
+  "symptoms": {
+    "title": "लक्षण ट्रैकर",
+    "subtitle": "अपने लक्षण दर्ज करें और आयुर्वेदिक सिफारिशें प्राप्त करें",
+    "physical": {
+      "title": "शारीरिक लक्षण",
+      "cramps": "ऐंठन",
+      "headache": "सिरदर्द",
+      "bloating": "पेट फूलना",
+      "fatigue": "थकान",
+      "breastTenderness": "स्तन कोमलता",
+      "backPain": "पीठ दर्द",
+      "nausea": "मतली",
+      "acne": "मुंहासे"
+    },
+    "emotional": {
+      "title": "भावनात्मक लक्षण",
+      "moodSwings": "मूड स्विंग्स",
+      "anxiety": "चिंता",
+      "irritability": "चिड़चिड़ापन",
+      "sadness": "उदासी",
+      "stress": "तनाव",
+      "lowMotivation": "कम प्रेरणा"
+    },
+    "energyLevels": {
+      "title": "ऊर्जा स्तर",
+      "low": "कम",
+      "medium": "मध्यम",
+      "high": "उच्च"
+    },
+    "severity": {
+      "title": "गंभीरता",
+      "mild": "हल्का",
+      "moderate": "मध्यम",
+      "severe": "गंभीर",
+      "level1": "1 - बहुत हल्का",
+      "level2": "2 - हल्का",
+      "level3": "3 - मध्यम",
+      "level4": "4 - गंभीर",
+      "level5": "5 - बहुत गंभीर"
+    },
+    "form": {
+      "logSymptoms": "लक्षण दर्ज करें",
+      "selectSymptoms": "अपने लक्षण चुनें",
+      "selectSeverity": "गंभीरता चुनें",
+      "addNotes": "नोट्स जोड़ें (वैकल्पिक)"
+    },
+    "history": {
+      "title": "लक्षण इतिहास",
+      "viewHistory": "इतिहास देखें",
+      "noHistory": "कोई लक्षण इतिहास नहीं मिला",
+      "cyclePhase": "चक्र चरण"
+    },
+    "messages": {
+      "symptomsLogged": "लक्षण सफलतापूर्वक दर्ज किए गए",
+      "selectAtLeastOne": "कृपया कम से कम एक लक्षण चुनें"
+    }
+  },
+  "recommendations": {
+    "title": "आयुर्वेदिक सिफारिशें",
+    "subtitle": "आपके लक्षणों के आधार पर प्राकृतिक उपचार",
+    "disclaimer": "ये सिफारिशें केवल सूचनात्मक उद्देश्यों के लिए हैं और इन्हें चिकित्सा सलाह नहीं माना जाना चाहिए। चिकित्सा संबंधी चिंताओं के लिए कृपया स्वास्थ्य पेशेवर से परामर्श करें।",
+    "types": {
+      "herbal": "हर्बल उपचार",
+      "dietary": "आहार सुझाव",
+      "yoga": "योग और व्यायाम",
+      "lifestyle": "जीवनशैली सुझाव"
+    },
+    "noRecommendations": "व्यक्तिगत सिफारिशें देखने के लिए लक्षण दर्ज करें"
+  },
+  "wellness": {
+    "title": "स्वास्थ्य योजनाकार",
+    "subtitle": "आपके दोष और चक्र के आधार पर व्यक्तिगत स्वास्थ्य",
+    "dosha": {
+      "title": "दोष मूल्यांकन",
+      "vata": "वात",
+      "pitta": "पित्त",
+      "kapha": "कफ",
+      "takeAssessment": "मूल्यांकन करें",
+      "yourDosha": "आपका दोष",
+      "primaryDosha": "प्राथमिक दोष",
+      "secondaryDosha": "द्वितीयक दोष",
+      "retakeAssessment": "पुनः मूल्यांकन करें"
+    },
+    "phases": {
+      "menstrual": "मासिक धर्म चरण",
+      "follicular": "फॉलिक्युलर चरण",
+      "ovulatory": "अंडोत्सर्ग चरण",
+      "luteal": "ल्यूटियल चरण"
+    },
+    "meals": {
+      "title": "साप्ताहिक भोजन योजना",
+      "breakfast": "नाश्ता",
+      "lunch": "दोपहर का भोजन",
+      "dinner": "रात का भोजन",
+      "snacks": "स्नैक्स",
+      "monday": "सोमवार",
+      "tuesday": "मंगलवार",
+      "wednesday": "बुधवार",
+      "thursday": "गुरुवार",
+      "friday": "शुक्रवार",
+      "saturday": "शनिवार",
+      "sunday": "रविवार"
+    },
+    "activities": {
+      "title": "स्वास्थ्य गतिविधियां",
+      "yoga": "योग",
+      "meditation": "ध्यान",
+      "exercise": "व्यायाम",
+      "duration": "अवधि",
+      "benefits": "लाभ"
+    },
+    "messages": {
+      "assessmentComplete": "दोष मूल्यांकन पूर्ण!",
+      "completeAssessment": "व्यक्तिगत सिफारिशें प्राप्त करने के लिए दोष मूल्यांकन पूर्ण करें"
+    }
+  },
+  "search": {
+    "placeholder": "स्वास्थ्य सामग्री खोजें...",
+    "noResults": "आपकी खोज के लिए कोई परिणाम नहीं मिला",
+    "tryDifferent": "अलग कीवर्ड आज़माएं या हमारी श्रेणियां ब्राउज़ करें",
+    "categories": {
+      "articles": "लेख",
+      "remedies": "उपचार",
+      "forum": "मंच चर्चाएं",
+      "diet": "आहार योजनाएं"
+    },
+    "resultsFor": "के लिए परिणाम",
+    "showingResults": "{{count}} परिणाम दिखा रहे हैं"
+  },
+  "language": {
+    "title": "भाषा",
+    "select": "भाषा चुनें",
+    "english": "अंग्रेज़ी",
+    "hindi": "हिन्दी",
+    "telugu": "తెలుగు",
+    "tamil": "தமிழ்",
+    "kannada": "ಕನ್ನಡ",
+    "malayalam": "മലയാളം"
+  }
+}

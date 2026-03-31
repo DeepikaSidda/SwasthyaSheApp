@@ -1,0 +1,286 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "cycleTracker": "Cycle Tracker",
+      "symptomTracker": "Symptom Tracker",
+      "communityForum": "Community Forum",
+      "wellnessPlanner": "Wellness Planner",
+      "periodHealth": "Period Health",
+      "naturalRemedies": "Natural Remedies",
+      "bloodColorGuide": "Blood Color Guide",
+      "menstrualHygiene": "Menstrual Hygiene",
+      "mentalWellness": "Mental Wellness",
+      "sexualHealth": "Sexual Health",
+      "skinHairCare": "Skin & Hair Care",
+      "pregnancyCare": "Pregnancy Care",
+      "dietPlan": "Diet Plan",
+      "search": "Search"
+    },
+    "buttons": {
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "close": "Close",
+      "back": "Back",
+      "next": "Next",
+      "previous": "Previous",
+      "confirm": "Confirm",
+      "reset": "Reset",
+      "clear": "Clear",
+      "apply": "Apply",
+      "viewMore": "View More",
+      "viewLess": "View Less",
+      "loadMore": "Load More",
+      "retry": "Retry"
+    },
+    "labels": {
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success",
+      "warning": "Warning",
+      "info": "Information",
+      "required": "Required",
+      "optional": "Optional",
+      "date": "Date",
+      "time": "Time",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "tomorrow": "Tomorrow",
+      "selectDate": "Select Date",
+      "selectLanguage": "Select Language",
+      "noData": "No data available",
+      "noResults": "No results found"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "networkError": "Network error. Please check your connection.",
+      "validationError": "Please check your input and try again.",
+      "notFound": "The requested resource was not found.",
+      "unauthorized": "You are not authorized to perform this action.",
+      "serverError": "Server error. Please try again later."
+    }
+  },
+  "cycleTracker": {
+    "title": "Cycle Tracker",
+    "subtitle": "Track your menstrual cycle and get predictions",
+    "calendar": {
+      "period": "Period",
+      "predictedPeriod": "Predicted Period",
+      "fertileWindow": "Fertile Window",
+      "ovulation": "Ovulation",
+      "pmsDays": "PMS Days",
+      "currentDay": "Current Day",
+      "cycleDay": "Cycle Day"
+    },
+    "form": {
+      "logPeriod": "Log Period",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "flowIntensity": "Flow Intensity",
+      "light": "Light",
+      "medium": "Medium",
+      "heavy": "Heavy",
+      "notes": "Notes",
+      "addNotes": "Add notes (optional)"
+    },
+    "predictions": {
+      "title": "Predictions",
+      "nextPeriod": "Next Period",
+      "fertileWindow": "Fertile Window",
+      "ovulationDate": "Ovulation Date",
+      "pmsDays": "PMS Days",
+      "averageCycleLength": "Average Cycle Length",
+      "averagePeriodLength": "Average Period Length",
+      "days": "days",
+      "confidence": "Confidence",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "insufficientData": "Log at least 3 cycles to see predictions"
+    },
+    "messages": {
+      "periodLogged": "Period logged successfully",
+      "periodUpdated": "Period updated successfully",
+      "invalidDateRange": "End date must be after start date"
+    }
+  },
+  "forum": {
+    "title": "Community Forum",
+    "subtitle": "Connect with other women and share experiences",
+    "categories": {
+      "all": "All Categories",
+      "periodHealth": "Period Health",
+      "mentalWellness": "Mental Wellness",
+      "pregnancy": "Pregnancy",
+      "ayurveda": "Ayurveda",
+      "general": "General"
+    },
+    "form": {
+      "createThread": "Create Thread",
+      "threadTitle": "Thread Title",
+      "threadContent": "Content",
+      "selectCategory": "Select Category",
+      "addTags": "Add Tags",
+      "postThread": "Post Thread",
+      "writeReply": "Write a reply...",
+      "postReply": "Post Reply"
+    },
+    "thread": {
+      "replies": "replies",
+      "reply": "reply",
+      "noReplies": "No replies yet. Be the first to respond!",
+      "postedBy": "Posted by",
+      "lastActivity": "Last activity",
+      "viewThread": "View Thread"
+    },
+    "messages": {
+      "threadCreated": "Thread created successfully",
+      "replyPosted": "Reply posted successfully",
+      "emptyTitle": "Please enter a thread title",
+      "emptyContent": "Please enter thread content",
+      "noThreads": "No threads found. Start a discussion!"
+    }
+  },
+  "symptoms": {
+    "title": "Symptom Tracker",
+    "subtitle": "Log your symptoms and get Ayurvedic recommendations",
+    "physical": {
+      "title": "Physical Symptoms",
+      "cramps": "Cramps",
+      "headache": "Headache",
+      "bloating": "Bloating",
+      "fatigue": "Fatigue",
+      "breastTenderness": "Breast Tenderness",
+      "backPain": "Back Pain",
+      "nausea": "Nausea",
+      "acne": "Acne"
+    },
+    "emotional": {
+      "title": "Emotional Symptoms",
+      "moodSwings": "Mood Swings",
+      "anxiety": "Anxiety",
+      "irritability": "Irritability",
+      "sadness": "Sadness",
+      "stress": "Stress",
+      "lowMotivation": "Low Motivation"
+    },
+    "energyLevels": {
+      "title": "Energy Level",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "severity": {
+      "title": "Severity",
+      "mild": "Mild",
+      "moderate": "Moderate",
+      "severe": "Severe",
+      "level1": "1 - Very Mild",
+      "level2": "2 - Mild",
+      "level3": "3 - Moderate",
+      "level4": "4 - Severe",
+      "level5": "5 - Very Severe"
+    },
+    "form": {
+      "logSymptoms": "Log Symptoms",
+      "selectSymptoms": "Select your symptoms",
+      "selectSeverity": "Select severity",
+      "addNotes": "Add notes (optional)"
+    },
+    "history": {
+      "title": "Symptom History",
+      "viewHistory": "View History",
+      "noHistory": "No symptom history found",
+      "cyclePhase": "Cycle Phase"
+    },
+    "messages": {
+      "symptomsLogged": "Symptoms logged successfully",
+      "selectAtLeastOne": "Please select at least one symptom"
+    }
+  },
+  "recommendations": {
+    "title": "Ayurvedic Recommendations",
+    "subtitle": "Natural remedies based on your symptoms",
+    "disclaimer": "These recommendations are for informational purposes only and should not be considered medical advice. Please consult a healthcare professional for medical concerns.",
+    "types": {
+      "herbal": "Herbal Remedies",
+      "dietary": "Dietary Suggestions",
+      "yoga": "Yoga & Exercise",
+      "lifestyle": "Lifestyle Tips"
+    },
+    "noRecommendations": "Log symptoms to see personalized recommendations"
+  },
+  "wellness": {
+    "title": "Wellness Planner",
+    "subtitle": "Personalized wellness based on your dosha and cycle",
+    "dosha": {
+      "title": "Dosha Assessment",
+      "vata": "Vata",
+      "pitta": "Pitta",
+      "kapha": "Kapha",
+      "takeAssessment": "Take Assessment",
+      "yourDosha": "Your Dosha",
+      "primaryDosha": "Primary Dosha",
+      "secondaryDosha": "Secondary Dosha",
+      "retakeAssessment": "Retake Assessment"
+    },
+    "phases": {
+      "menstrual": "Menstrual Phase",
+      "follicular": "Follicular Phase",
+      "ovulatory": "Ovulatory Phase",
+      "luteal": "Luteal Phase"
+    },
+    "meals": {
+      "title": "Weekly Meal Plan",
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snacks": "Snacks",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "activities": {
+      "title": "Wellness Activities",
+      "yoga": "Yoga",
+      "meditation": "Meditation",
+      "exercise": "Exercise",
+      "duration": "Duration",
+      "benefits": "Benefits"
+    },
+    "messages": {
+      "assessmentComplete": "Dosha assessment complete!",
+      "completeAssessment": "Complete the dosha assessment to get personalized recommendations"
+    }
+  },
+  "search": {
+    "placeholder": "Search health content...",
+    "noResults": "No results found for your search",
+    "tryDifferent": "Try different keywords or browse our categories",
+    "categories": {
+      "articles": "Articles",
+      "remedies": "Remedies",
+      "forum": "Forum Discussions",
+      "diet": "Diet Plans"
+    },
+    "resultsFor": "Results for",
+    "showingResults": "Showing {{count}} results"
+  },
+  "language": {
+    "title": "Language",
+    "select": "Select Language",
+    "english": "English",
+    "hindi": "Hindi",
+    "telugu": "Telugu",
+    "tamil": "Tamil",
+    "kannada": "Kannada",
+    "malayalam": "Malayalam"
+  }
+}

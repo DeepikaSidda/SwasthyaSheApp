@@ -1,0 +1,286 @@
+{
+  "common": {
+    "navigation": {
+      "home": "ಮುಖಪುಟ",
+      "cycleTracker": "ಸೈಕಲ್ ಟ್ರ್ಯಾಕರ್",
+      "symptomTracker": "ಲಕ್ಷಣ ಟ್ರ್ಯಾಕರ್",
+      "communityForum": "ಸಮುದಾಯ ವೇದಿಕೆ",
+      "wellnessPlanner": "ಆರೋಗ್ಯ ಯೋಜಕ",
+      "periodHealth": "ಮುಟ್ಟಿನ ಆರೋಗ್ಯ",
+      "naturalRemedies": "ನೈಸರ್ಗಿಕ ಪರಿಹಾರಗಳು",
+      "bloodColorGuide": "ರಕ್ತ ಬಣ್ಣ ಮಾರ್ಗದರ್ಶಿ",
+      "menstrualHygiene": "ಮುಟ್ಟಿನ ನೈರ್ಮಲ್ಯ",
+      "mentalWellness": "ಮಾನಸಿಕ ಆರೋಗ್ಯ",
+      "sexualHealth": "ಲೈಂಗಿಕ ಆರೋಗ್ಯ",
+      "skinHairCare": "ಚರ್ಮ & ಕೂದಲು ಆರೈಕೆ",
+      "pregnancyCare": "ಗರ್ಭಧಾರಣೆ ಆರೈಕೆ",
+      "dietPlan": "ಆಹಾರ ಯೋಜನೆ",
+      "search": "ಹುಡುಕಿ"
+    },
+    "buttons": {
+      "submit": "ಸಲ್ಲಿಸಿ",
+      "cancel": "ರದ್ದುಮಾಡಿ",
+      "save": "ಉಳಿಸಿ",
+      "delete": "ಅಳಿಸಿ",
+      "edit": "ಸಂಪಾದಿಸಿ",
+      "close": "ಮುಚ್ಚಿ",
+      "back": "ಹಿಂದೆ",
+      "next": "ಮುಂದೆ",
+      "previous": "ಹಿಂದಿನ",
+      "confirm": "ದೃಢೀಕರಿಸಿ",
+      "reset": "ಮರುಹೊಂದಿಸಿ",
+      "clear": "ತೆರವುಗೊಳಿಸಿ",
+      "apply": "ಅನ್ವಯಿಸಿ",
+      "viewMore": "ಇನ್ನಷ್ಟು ನೋಡಿ",
+      "viewLess": "ಕಡಿಮೆ ನೋಡಿ",
+      "loadMore": "ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡಿ",
+      "retry": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
+    },
+    "labels": {
+      "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+      "error": "ದೋಷ",
+      "success": "ಯಶಸ್ಸು",
+      "warning": "ಎಚ್ಚರಿಕೆ",
+      "info": "ಮಾಹಿತಿ",
+      "required": "ಅಗತ್ಯ",
+      "optional": "ಐಚ್ಛಿಕ",
+      "date": "ದಿನಾಂಕ",
+      "time": "ಸಮಯ",
+      "today": "ಇಂದು",
+      "yesterday": "ನಿನ್ನೆ",
+      "tomorrow": "ನಾಳೆ",
+      "selectDate": "ದಿನಾಂಕ ಆಯ್ಕೆಮಾಡಿ",
+      "selectLanguage": "ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ",
+      "noData": "ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ",
+      "noResults": "ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+    },
+    "errors": {
+      "generic": "ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+      "networkError": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "validationError": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇನ್‌ಪುಟ್ ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+      "notFound": "ವಿನಂತಿಸಿದ ಸಂಪನ್ಮೂಲ ಕಂಡುಬಂದಿಲ್ಲ.",
+      "unauthorized": "ಈ ಕ್ರಿಯೆಯನ್ನು ಮಾಡಲು ನಿಮಗೆ ಅಧಿಕಾರವಿಲ್ಲ.",
+      "serverError": "ಸರ್ವರ್ ದೋಷ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+    }
+  },
+  "cycleTracker": {
+    "title": "ಸೈಕಲ್ ಟ್ರ್ಯಾಕರ್",
+    "subtitle": "ನಿಮ್ಮ ಮುಟ್ಟಿನ ಚಕ್ರವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ಮುನ್ಸೂಚನೆಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "calendar": {
+      "period": "ಮುಟ್ಟು",
+      "predictedPeriod": "ಊಹಿಸಿದ ಮುಟ್ಟು",
+      "fertileWindow": "ಫಲವತ್ತಾದ ಅವಧಿ",
+      "ovulation": "ಅಂಡೋತ್ಸರ್ಗ",
+      "pmsDays": "PMS ದಿನಗಳು",
+      "currentDay": "ಪ್ರಸ್ತುತ ದಿನ",
+      "cycleDay": "ಸೈಕಲ್ ದಿನ"
+    },
+    "form": {
+      "logPeriod": "ಮುಟ್ಟು ದಾಖಲಿಸಿ",
+      "startDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+      "endDate": "ಅಂತಿಮ ದಿನಾಂಕ",
+      "flowIntensity": "ಹರಿವಿನ ತೀವ್ರತೆ",
+      "light": "ಹಗುರ",
+      "medium": "ಮಧ್ಯಮ",
+      "heavy": "ಭಾರೀ",
+      "notes": "ಟಿಪ್ಪಣಿಗಳು",
+      "addNotes": "ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ (ಐಚ್ಛಿಕ)"
+    },
+    "predictions": {
+      "title": "ಮುನ್ಸೂಚನೆಗಳು",
+      "nextPeriod": "ಮುಂದಿನ ಮುಟ್ಟು",
+      "fertileWindow": "ಫಲವತ್ತಾದ ಅವಧಿ",
+      "ovulationDate": "ಅಂಡೋತ್ಸರ್ಗ ದಿನಾಂಕ",
+      "pmsDays": "PMS ದಿನಗಳು",
+      "averageCycleLength": "ಸರಾಸರಿ ಸೈಕಲ್ ಉದ್ದ",
+      "averagePeriodLength": "ಸರಾಸರಿ ಮುಟ್ಟಿನ ಉದ್ದ",
+      "days": "ದಿನಗಳು",
+      "confidence": "ವಿಶ್ವಾಸಾರ್ಹತೆ",
+      "low": "ಕಡಿಮೆ",
+      "medium": "ಮಧ್ಯಮ",
+      "high": "ಹೆಚ್ಚು",
+      "insufficientData": "ಮುನ್ಸೂಚನೆಗಳನ್ನು ನೋಡಲು ಕನಿಷ್ಠ 3 ಸೈಕಲ್‌ಗಳನ್ನು ದಾಖಲಿಸಿ"
+    },
+    "messages": {
+      "periodLogged": "ಮುಟ್ಟು ಯಶಸ್ವಿಯಾಗಿ ದಾಖಲಾಗಿದೆ",
+      "periodUpdated": "ಮುಟ್ಟು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+      "invalidDateRange": "ಅಂತಿಮ ದಿನಾಂಕ ಪ್ರಾರಂಭ ದಿನಾಂಕದ ನಂತರ ಇರಬೇಕು"
+    }
+  },
+  "forum": {
+    "title": "ಸಮುದಾಯ ವೇದಿಕೆ",
+    "subtitle": "ಇತರ ಮಹಿಳೆಯರೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ ಮತ್ತು ಅನುಭವಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ",
+    "categories": {
+      "all": "ಎಲ್ಲಾ ವರ್ಗಗಳು",
+      "periodHealth": "ಮುಟ್ಟಿನ ಆರೋಗ್ಯ",
+      "mentalWellness": "ಮಾನಸಿಕ ಆರೋಗ್ಯ",
+      "pregnancy": "ಗರ್ಭಧಾರಣೆ",
+      "ayurveda": "ಆಯುರ್ವೇದ",
+      "general": "ಸಾಮಾನ್ಯ"
+    },
+    "form": {
+      "createThread": "ಥ್ರೆಡ್ ರಚಿಸಿ",
+      "threadTitle": "ಥ್ರೆಡ್ ಶೀರ್ಷಿಕೆ",
+      "threadContent": "ವಿಷಯ",
+      "selectCategory": "ವರ್ಗ ಆಯ್ಕೆಮಾಡಿ",
+      "addTags": "ಟ್ಯಾಗ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
+      "postThread": "ಥ್ರೆಡ್ ಪೋಸ್ಟ್ ಮಾಡಿ",
+      "writeReply": "ಉತ್ತರ ಬರೆಯಿರಿ...",
+      "postReply": "ಉತ್ತರ ಪೋಸ್ಟ್ ಮಾಡಿ"
+    },
+    "thread": {
+      "replies": "ಉತ್ತರಗಳು",
+      "reply": "ಉತ್ತರ",
+      "noReplies": "ಇನ್ನೂ ಉತ್ತರಗಳಿಲ್ಲ. ಮೊದಲು ಪ್ರತಿಕ್ರಿಯಿಸಿ!",
+      "postedBy": "ಪೋಸ್ಟ್ ಮಾಡಿದವರು",
+      "lastActivity": "ಕೊನೆಯ ಚಟುವಟಿಕೆ",
+      "viewThread": "ಥ್ರೆಡ್ ನೋಡಿ"
+    },
+    "messages": {
+      "threadCreated": "ಥ್ರೆಡ್ ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+      "replyPosted": "ಉತ್ತರ ಯಶಸ್ವಿಯಾಗಿ ಪೋಸ್ಟ್ ಆಗಿದೆ",
+      "emptyTitle": "ದಯವಿಟ್ಟು ಥ್ರೆಡ್ ಶೀರ್ಷಿಕೆ ನಮೂದಿಸಿ",
+      "emptyContent": "ದಯವಿಟ್ಟು ಥ್ರೆಡ್ ವಿಷಯ ನಮೂದಿಸಿ",
+      "noThreads": "ಥ್ರೆಡ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ. ಚರ್ಚೆ ಪ್ರಾರಂಭಿಸಿ!"
+    }
+  },
+  "symptoms": {
+    "title": "ಲಕ್ಷಣ ಟ್ರ್ಯಾಕರ್",
+    "subtitle": "ನಿಮ್ಮ ಲಕ್ಷಣಗಳನ್ನು ದಾಖಲಿಸಿ ಮತ್ತು ಆಯುರ್ವೇದ ಶಿಫಾರಸುಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "physical": {
+      "title": "ದೈಹಿಕ ಲಕ್ಷಣಗಳು",
+      "cramps": "ಸೆಳೆತ",
+      "headache": "ತಲೆನೋವು",
+      "bloating": "ಉಬ್ಬರ",
+      "fatigue": "ಆಯಾಸ",
+      "breastTenderness": "ಸ್ತನ ಮೃದುತ್ವ",
+      "backPain": "ಬೆನ್ನು ನೋವು",
+      "nausea": "ವಾಕರಿಕೆ",
+      "acne": "ಮೊಡವೆ"
+    },
+    "emotional": {
+      "title": "ಭಾವನಾತ್ಮಕ ಲಕ್ಷಣಗಳು",
+      "moodSwings": "ಮೂಡ್ ಸ್ವಿಂಗ್ಸ್",
+      "anxiety": "ಆತಂಕ",
+      "irritability": "ಕಿರಿಕಿರಿ",
+      "sadness": "ದುಃಖ",
+      "stress": "ಒತ್ತಡ",
+      "lowMotivation": "ಕಡಿಮೆ ಪ್ರೇರಣೆ"
+    },
+    "energyLevels": {
+      "title": "ಶಕ್ತಿ ಮಟ್ಟ",
+      "low": "ಕಡಿಮೆ",
+      "medium": "ಮಧ್ಯಮ",
+      "high": "ಹೆಚ್ಚು"
+    },
+    "severity": {
+      "title": "ತೀವ್ರತೆ",
+      "mild": "ಹಗುರ",
+      "moderate": "ಮಧ್ಯಮ",
+      "severe": "ತೀವ್ರ",
+      "level1": "1 - ಅತಿ ಹಗುರ",
+      "level2": "2 - ಹಗುರ",
+      "level3": "3 - ಮಧ್ಯಮ",
+      "level4": "4 - ತೀವ್ರ",
+      "level5": "5 - ಅತಿ ತೀವ್ರ"
+    },
+    "form": {
+      "logSymptoms": "ಲಕ್ಷಣಗಳನ್ನು ದಾಖಲಿಸಿ",
+      "selectSymptoms": "ನಿಮ್ಮ ಲಕ್ಷಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+      "selectSeverity": "ತೀವ್ರತೆ ಆಯ್ಕೆಮಾಡಿ",
+      "addNotes": "ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ (ಐಚ್ಛಿಕ)"
+    },
+    "history": {
+      "title": "ಲಕ್ಷಣ ಇತಿಹಾಸ",
+      "viewHistory": "ಇತಿಹಾಸ ನೋಡಿ",
+      "noHistory": "ಲಕ್ಷಣ ಇತಿಹಾಸ ಕಂಡುಬಂದಿಲ್ಲ",
+      "cyclePhase": "ಸೈಕಲ್ ಹಂತ"
+    },
+    "messages": {
+      "symptomsLogged": "ಲಕ್ಷಣಗಳು ಯಶಸ್ವಿಯಾಗಿ ದಾಖಲಾಗಿವೆ",
+      "selectAtLeastOne": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಲಕ್ಷಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+    }
+  },
+  "recommendations": {
+    "title": "ಆಯುರ್ವೇದ ಶಿಫಾರಸುಗಳು",
+    "subtitle": "ನಿಮ್ಮ ಲಕ್ಷಣಗಳ ಆಧಾರದ ಮೇಲೆ ನೈಸರ್ಗಿಕ ಪರಿಹಾರಗಳು",
+    "disclaimer": "ಈ ಶಿಫಾರಸುಗಳು ಮಾಹಿತಿ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಮಾತ್ರ ಮತ್ತು ವೈದ್ಯಕೀಯ ಸಲಹೆಯಾಗಿ ಪರಿಗಣಿಸಬಾರದು. ವೈದ್ಯಕೀಯ ಕಾಳಜಿಗಳಿಗಾಗಿ ದಯವಿಟ್ಟು ಆರೋಗ್ಯ ವೃತ್ತಿಪರರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+    "types": {
+      "herbal": "ಗಿಡಮೂಲಿಕೆ ಪರಿಹಾರಗಳು",
+      "dietary": "ಆಹಾರ ಸಲಹೆಗಳು",
+      "yoga": "ಯೋಗ & ವ್ಯಾಯಾಮ",
+      "lifestyle": "ಜೀವನಶೈಲಿ ಸಲಹೆಗಳು"
+    },
+    "noRecommendations": "ವೈಯಕ್ತಿಕ ಶಿಫಾರಸುಗಳನ್ನು ನೋಡಲು ಲಕ್ಷಣಗಳನ್ನು ದಾಖಲಿಸಿ"
+  },
+  "wellness": {
+    "title": "ಆರೋಗ್ಯ ಯೋಜಕ",
+    "subtitle": "ನಿಮ್ಮ ದೋಷ ಮತ್ತು ಸೈಕಲ್ ಆಧಾರದ ಮೇಲೆ ವೈಯಕ್ತಿಕ ಆರೋಗ್ಯ",
+    "dosha": {
+      "title": "ದೋಷ ಮೌಲ್ಯಮಾಪನ",
+      "vata": "ವಾತ",
+      "pitta": "ಪಿತ್ತ",
+      "kapha": "ಕಫ",
+      "takeAssessment": "ಮೌಲ್ಯಮಾಪನ ತೆಗೆದುಕೊಳ್ಳಿ",
+      "yourDosha": "ನಿಮ್ಮ ದೋಷ",
+      "primaryDosha": "ಪ್ರಾಥಮಿಕ ದೋಷ",
+      "secondaryDosha": "ದ್ವಿತೀಯ ದೋಷ",
+      "retakeAssessment": "ಮತ್ತೆ ಮೌಲ್ಯಮಾಪನ ತೆಗೆದುಕೊಳ್ಳಿ"
+    },
+    "phases": {
+      "menstrual": "ಮುಟ್ಟಿನ ಹಂತ",
+      "follicular": "ಫಾಲಿಕ್ಯುಲರ್ ಹಂತ",
+      "ovulatory": "ಅಂಡೋತ್ಸರ್ಗ ಹಂತ",
+      "luteal": "ಲ್ಯೂಟಿಯಲ್ ಹಂತ"
+    },
+    "meals": {
+      "title": "ವಾರದ ಊಟದ ಯೋಜನೆ",
+      "breakfast": "ಉಪಾಹಾರ",
+      "lunch": "ಮಧ್ಯಾಹ್ನದ ಊಟ",
+      "dinner": "ರಾತ್ರಿ ಊಟ",
+      "snacks": "ತಿಂಡಿಗಳು",
+      "monday": "ಸೋಮವಾರ",
+      "tuesday": "ಮಂಗಳವಾರ",
+      "wednesday": "ಬುಧವಾರ",
+      "thursday": "ಗುರುವಾರ",
+      "friday": "ಶುಕ್ರವಾರ",
+      "saturday": "ಶನಿವಾರ",
+      "sunday": "ಭಾನುವಾರ"
+    },
+    "activities": {
+      "title": "ಆರೋಗ್ಯ ಚಟುವಟಿಕೆಗಳು",
+      "yoga": "ಯೋಗ",
+      "meditation": "ಧ್ಯಾನ",
+      "exercise": "ವ್ಯಾಯಾಮ",
+      "duration": "ಅವಧಿ",
+      "benefits": "ಪ್ರಯೋಜನಗಳು"
+    },
+    "messages": {
+      "assessmentComplete": "ದೋಷ ಮೌಲ್ಯಮಾಪನ ಪೂರ್ಣಗೊಂಡಿದೆ!",
+      "completeAssessment": "ವೈಯಕ್ತಿಕ ಶಿಫಾರಸುಗಳನ್ನು ಪಡೆಯಲು ದೋಷ ಮೌಲ್ಯಮಾಪನ ಪೂರ್ಣಗೊಳಿಸಿ"
+    }
+  },
+  "search": {
+    "placeholder": "ಆರೋಗ್ಯ ವಿಷಯ ಹುಡುಕಿ...",
+    "noResults": "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+    "tryDifferent": "ವಿಭಿನ್ನ ಕೀವರ್ಡ್‌ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಮ್ಮ ವರ್ಗಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ",
+    "categories": {
+      "articles": "ಲೇಖನಗಳು",
+      "remedies": "ಪರಿಹಾರಗಳು",
+      "forum": "ವೇದಿಕೆ ಚರ್ಚೆಗಳು",
+      "diet": "ಆಹಾರ ಯೋಜನೆಗಳು"
+    },
+    "resultsFor": "ಗಾಗಿ ಫಲಿತಾಂಶಗಳು",
+    "showingResults": "{{count}} ಫಲಿತಾಂಶಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "language": {
+    "title": "ಭಾಷೆ",
+    "select": "ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "telugu": "తెలుగు",
+    "tamil": "தமிழ்",
+    "kannada": "ಕನ್ನಡ",
+    "malayalam": "മലയാളം"
+  }
+}

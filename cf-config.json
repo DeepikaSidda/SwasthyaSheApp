@@ -1,0 +1,28 @@
+﻿{
+  "CallerReference": "swasthyashe-20260329",
+  "Origins": {
+    "Quantity": 1,
+    "Items": [
+      {
+        "Id": "S3-swasthyashe",
+        "DomainName": "swasthyashe-frontend-hosting.s3.amazonaws.com",
+        "S3OriginConfig": { "OriginAccessIdentity": "" }
+      }
+    ]
+  },
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "S3-swasthyashe",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "AllowedMethods": { "Quantity": 2, "Items": ["GET", "HEAD"] },
+    "CachedMethods": { "Quantity": 2, "Items": ["GET", "HEAD"] },
+    "ForwardedValues": { "QueryString": false, "Cookies": { "Forward": "none" } },
+    "MinTTL": 0, "DefaultTTL": 86400, "MaxTTL": 31536000, "Compress": true
+  },
+  "DefaultRootObject": "index.html",
+  "CustomErrorResponses": {
+    "Quantity": 1,
+    "Items": [{ "ErrorCode": 403, "ResponsePagePath": "/index.html", "ResponseCode": "200", "ErrorCachingMinTTL": 300 }]
+  },
+  "Comment": "Swasthyashe Frontend",
+  "Enabled": true
+}
