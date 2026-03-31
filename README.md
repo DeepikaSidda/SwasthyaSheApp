@@ -85,7 +85,6 @@ Swasthyashe uses Amazon Bedrock (Meta Llama 3.2) to power several AI features:
 - **React 18** with TypeScript
 - **Tailwind CSS** for styling (frosted glass card design system)
 - **React Router** for client-side routing
-- **i18next** for internationalization (6 languages)
 
 ### Backend
 - **AWS Lambda** (Node.js 18) — Serverless compute
